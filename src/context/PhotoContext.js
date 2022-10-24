@@ -21,11 +21,6 @@ const runSearch=async(query)=>{
         console.log(err)
     })
 } 
-
-
-
-
-
   return (
     <PhotoContext.Provider value={{ images, loading, runSearch }}>
     {props.children}
